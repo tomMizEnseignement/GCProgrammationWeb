@@ -1,0 +1,110 @@
+:root {
+  background-color: #ecf5ff;
+  font-size: 70%;
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+/* UTILITIES */
+
+.container {
+  width: 80rem;
+  display: grid;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1200px;
+  border: solid;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.left-column {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding: 4rem;
+  background-color: #4472C4;
+  color: white;
+}
+
+.right-column {
+  display: grid;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  grid-template-rows: 21rem 1fr;
+}
+
+.header {
+  grid-row: 1 / 2;
+  padding: 2rem;
+  background-color: #F2F2F2;
+}
+
+.content {
+  grid-row: 2 / 3;
+  padding: 5rem;
+}
+
+.skills{
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+  /* Espace les lettres entre elles de 1px */
+  margin: 0 0 1rem;
+}
+
+.text-blue {
+  color: #56a5eb;
+}
+
+.text-darkblue {
+  color: #002060;
+}
+
+.text-white {
+  color: #F2F2F2;
+}
+
+.experience-list {
+  list-style-type: circle;
+}
+
+.experience-list-2 {
+  list-style-type: "-";
+}
+
+.photo {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  margin-bottom: 5rem;
+  max-width: 18rem;
+}
+
+.years {
+  font-size: 1.3rem;
+}
